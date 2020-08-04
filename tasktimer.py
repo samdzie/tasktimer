@@ -8,7 +8,7 @@ import pickle
 import time
 from os import path
 
-FILENAME = 'tasks.pickle'
+FILENAME = path.join(path.expanduser('~'), '.tasktimer')
 
 
 class Task:
